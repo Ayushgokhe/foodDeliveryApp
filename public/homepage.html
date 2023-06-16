@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery - Home_Page</title>
+    <link rel="icon" type="image/x-icon" href="./img/icon.png"/>
+    <link rel="stylesheet" href="css/homepage.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="JS/homepage.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+    <!-- Nav bar part -->
+    <div class="container">
+    <div>
+        <div class="content">
+            <video autoplay muted loop src="./img/video.mp4"></video>
+        </div>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="./img/logo1.PNG" alt="myonlinemeal.com">
+            </div>
+            <ul>
+                <li class="item"><a href="#container">Dishes</a></li>
+                <li class="item"><a href="#brand">Our &nbsp;Brands</a></li>
+                <li class="item"><a href="#onlineorder">Meal</a></li>
+                <li class="item1">
+                    <input class="input" type="text">
+                    <input class="btn" type="button" value="Search">
+                </li>
+                <li class="item2"><a href="./HTML/login1.html">Log in</a></li>
+                <li class="item2"><a href="./HTML/signup1.html">Sign up</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Background Img text part -->
+
+    <section id="home">
+        <h1 class="h-primary">welcome to our online meal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla quae doloribus delectus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+    <!-- Overflow Part of dishes -->
+
+    <div id="container">
+        <h2>Inspiration for your first order</h2>
+        <p id="left"><img src="./img/left_arrow.png" onclick="left()" alt=""></p>
+        <p id="right"><img src="./img/right_arrow.png" onclick="right()" alt=""></p>
+        <div id="sec1">
+            <section class="slide1">
+                <div class="product1">
+                    <img src="{{img}}" alt="">
+                    <!-- <a href="{{link}}"> -->
+                        <p onclick="getId(event)" id="{{id}}"> {{name}} </p>
+                    <!-- </a> -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Overflow part of Brands -->
+
+    <div id="brand">
+        <h2>Top Brands for you</h2>
+        <p id="left1"><img src="./img/left_arrow.png" onclick="left1()" alt=""></p>
+        <p id="right1"><img src="./img/right_arrow.png" onclick="right1()" alt=""></p>
+        <div id="sec2">
+            <section class="slide2">
+                <div class="product1">
+                    <img src="{{img1}}" alt="">
+                    <a href="{{link}}">
+                        <p> {{name}} </p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Online order part -->
+
+    <div id="onlineorder">
+        <h2>Order food online</h2>
+        <div id="order_sec">
+            <div id="order_part">
+                <div id="order_product">
+                    <a href=""><img src="{{img}}" alt=""></a>
+                    <a href="">
+                        <p> {{name}} </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="center">
+            copyright &copy; www.myonlinemeal.com. all rights reserved!
+        </div>
+    </footer>
+</div>
+
+
+</body>
+
+</html>

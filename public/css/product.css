@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*navbar part*/
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0000005f;
+}
+
+#logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 7px;
+}
+
+#logo>img {
+    border-radius: 30%;
+    width: 69px;
+    height: 69px;
+    margin-left: 21px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.item {
+    font-size: 1.3rem;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.item a {
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover {
+    color: black;
+}
+
+
+.item1 {
+    padding: 20px;
+    margin: 10px;
+    margin-left: 550px;
+}
+
+.input {
+    margin: 3px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 250px;
+    margin-left: -242px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn {
+    margin: 3px;
+    height: 28px;
+    border-radius: 12px;
+    border: 2px solid #dd781d9e;
+    width: 74px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.item2 {
+    margin: 34px 2px;
+    padding: 5px;
+    margin-left: 8px;
+}
+
+.item2 a {
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*main body part section 1*/
+
+h1 {
+    /* text-align: center; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+
+.abc {
+    display: none;
+}
+
+#div2 {
+    display: flex;
+}
+
+#div3 {
+    display: flex;
+}
+
+#div_img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-right: 300px;
+}
+
+#part1 {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 500px;
+}
+
+#part2 {
+    position: absolute;
+    margin-top: 60px;
+    /* display: none; */
+    margin-left: 800px;
+    /* font-weight: bold; */
+    /* background-color: rgb(27, 129, 27); */
+    /* padding: 4px; */
+    /* color: white; */
+    /* border-radius: 10px;
+    width: 57px; */
+    /* text-align: center;
+    font-size: 18px; */
+}
+
+.rating {
+    background-color: green;
+    width: 40px;
+    padding: 4px;
+    color: white;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+}
+
+/* .star{
+   font-size: 15px;
+   position: absolute;
+   margin-left: 841px;
+   margin-top: 60px; 
+   color: white;
+   display: none;
+} */
+#part3 {
+    position: absolute;
+    margin-top: 117px;
+    margin-left: 500px;
+}
+
+#part4 {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 840px;
+}
+
+#part4 img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-left: -53px;
+    margin-top: -10px;
+}
+
+/* .product_det{
+    font-size: 20px;
+} */
+
+.add_cart {
+    margin-left: 335px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(27, 129, 27);
+    border-radius: 7px;
+    margin-top: 170px;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 1000px;
+    cursor: pointer;
+}
+
+/*main body part section 2*/
+/* 
+h2{
+    font-size: 1.9rem;
+} */
+
+hr {
+    margin-top: 20px;
+    /* font-weight: bold; */
+    /* font-size: 12px; */
+    height: 1px;
+    background-color: black;
+}
+
+#product_det {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.list_cont{
+    display: none;
+}
+
+/* .product_content {
+    display: none;
+    display: grid;
+}
+
+.product_content a {
+    display: grid;
+} */
+
+#online_box {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    padding: 7px;
+    margin-bottom: 16px;
+}
+
+.product_img {
+    width: 380px;
+    height: 230px;
+    border-radius: 7%;
+    margin-bottom: 7px;
+}
+
+#online_box:hover {
+    border-radius: 20px;
+    box-shadow: 0.3rem 0.4rem 0.3rem 0.4rem rgb(146, 144, 144);
+}
+
+.center {
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+
+
+/*footer part*/
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+}
+
+footer:hover {
+    color: green;
+}
+
+h2 {
+    position: absolute;
+    margin-left: 600px;
+}

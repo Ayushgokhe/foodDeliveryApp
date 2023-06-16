@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+    <script src="../JS/product.js"></script>
+    <script src="../JS/cartItem.js"></script>
+    <link rel="icon" type="image/x-icon" href="../img/icon.png" />
+    <link rel="stylesheet" href="../css/product.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../img/logo1.PNG" alt="myonlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#about">About</a> </li>
+            <li class="item"><a href="#contact"> Contact us</a></li>
+            <li class="item"><a href="#okay"> Okay</a></li>
+            <li class="item1">
+                <input class="input" type="text">
+                <input class="btn" type="button" value="Search">
+            </li>
+            <li class="item2"><a href="../HTML/login1.html">Log in</a></li>
+            <li class="item2"><a href="../HTML/signup1.html">Sign up</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Grab Some Tasty Items</h1>
+        <section>
+            <div id="div1">
+                <div id="div2">
+                    <section class="abc">
+                        <div id="div3">
+                            <img id="div_img" src="{{img}}" alt="Bad-Server Problem">
+                            <h2>{{name}}</h2>
+                            <p id="part1"><b>Price :</b> ₹{{Price}}</p>
+                            <p id="part2"><b class="rating">{{Rating}}</b><span class="star"></span></p>
+                            <p id="part3"><b>Delivery In :</b> 30 min</p>
+                            <p id="part4"><img src="../img/location.png" alt=""> {{Location}} </p>
+                            <button class="add_cart" onclick="getId(event)" id="{{id}}">Add cart</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <hr>
+            <!-- <h2>Here Is Some More Product</h2> -->
+            <div id="product_det">
+                    <div class="list_cont">
+                    <div class="product_content">
+                        <a href="" id="online_box">
+                            <img class="product_img" src="{{img1}}" alt="">
+                            <p class="center">{{name1}}</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="center">
+            copyright &copy; www.myonlinemeal.com. all rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

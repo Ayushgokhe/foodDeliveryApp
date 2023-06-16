@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #0000005f;
+}
+
+#logo{
+    width: 100px;
+    height: 60px;
+    margin-left: 7px;
+}
+
+#logo>img{
+    border-radius: 30%;
+    width: 69px;
+    height: 69px;
+    margin-left: 21px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.item{
+    font-size: 1.3rem;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.item a {
+    color: white;
+    text-decoration: none;
+}
+.item1{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 550px;
+    
+}
+.input{
+    margin: 3px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 250px;
+    margin-left: -242px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn{
+    margin: 3px;
+    height: 28px;
+    border-radius: 12px;
+    border: 2px solid #dd781d9e;
+    width: 74px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.item2{
+    margin: 34px 20px ;
+    padding: 5px;
+    margin-left: -10px;
+}
+
+.item2 a{
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Background video part */
+
+.content video{
+    background: no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    margin-top: -30px;
+}
+
+#home{
+    margin-top: 223px;
+    text-align: center;
+}
+.h-primary{
+    font-size: 3.8rem;
+    color: white;
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Overflow Part of dishes and Brand too */
+
+#container{
+    /* width: auto; */
+    /* height: 350px; */
+    /* border: 2px solid black; */
+    margin-top: 165px;
+    margin-right:60px;
+    margin-left: 60px;
+
+}
+
+#brand{
+    margin-right:60px;
+    margin-left: 60px;
+}
+
+h2{
+    margin: 5px;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+#sec1{
+    display: flex;
+    overflow-x:hidden;
+    width: 100%;
+}
+
+.slide1{
+    display: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product1{
+    display: grid;
+    margin: 30.66px;
+}
+#sec2{
+    display: flex;
+    overflow-x:hidden;
+    width: 100%;
+}
+
+.slide2{
+    display: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product1>img{
+    border-radius: 80px;
+    width: 143px;
+    height: 143px;
+}
+
+.product1 a {
+    text-decoration: none;
+}
+
+.product1 p {
+    color: black;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* overflow button */
+
+#left{
+    margin-top: 79px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+#left img {
+    width: 40px;
+    height: 40px;
+    margin: 11px 0px 0px -20px;
+}
+
+#right img {
+    width: 40px;
+    height: 40px;
+    margin: 11px 0px 0px 7px;
+}
+
+#right{
+    margin-top: 79px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1205px;
+    scroll-behavior: smooth;
+}
+
+#left1{
+    margin-top: 79px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    scroll-behavior: smooth;
+}
+
+#left1 img {
+    width: 40px;
+    height: 40px;
+    margin: 11px 0px 0px -20px;
+}
+
+#right1 img {
+    width: 40px;
+    height: 40px;
+    margin: 11px 0px 0px 7px;
+}
+
+#right1{
+    margin-top: 79px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1205px;
+    scroll-behavior: smooth;
+}
+
+/* online order part */
+
+#onlineorder{
+    width: auto;
+    height: auto;
+    margin: 0px 60px;
+}
+
+#order_sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#order_part{
+     display: none;
+}
+
+#order_product{
+    display: grid;
+    margin: 7px;
+}
+
+#order_product:hover{
+    border-radius: 20px;
+    box-shadow: 0.3rem 0.4rem 0.3rem 0.4rem rgb(146, 144, 144);
+}
+
+#order_product a img{
+    margin: 7px;
+    padding: 7px;
+    width: 367px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#order_product a{
+    text-decoration: none;
+}
+
+#order_product a p{
+    color: black;
+    list-style: none;
+    text-align: center;
+    margin: 0px 5px;
+    padding: 5px;
+}
+
+ 
+
+ footer{
+    background-color:black;
+    color: white;
+    padding: 13px 20px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 15px;
+    font-size: 1.4rem;
+} 
+
+footer:hover {
+    color: green;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Delivery - Sign-up</title>
+    <link rel="stylesheet" href="../css/signup1.css">
+    <link rel="icon" type="image/x-icon" href="../img/icon.png" />
+    <script src="../JS/signup1.js"></script>
+</head>
+
+<body>
+    <div class="content"></div>
+    <div class="container">
+        <h2><b>Sign up</b></h2>
+        <form action="./login1.html" method="get" id="form">
+            <input type="text" class="element" name="username" maxlength="15" placeholder="username">
+            <input type="password" class="element" name="password" maxlength="10" placeholder="password">
+            <!-- <input type="password" class="element" name="confirm password" maxlength="10" placeholder="confirm password"> -->
+            <input type="email" class="element" name="Email ID" placeholder="Email ID">
+            <input type="text" id="captcha" placeholder="Enter captcha"><span id="container1">&nbsp;</span><img
+                class="refresh" onclick="generate()" src="../img/refresh1.PNG">
+            <a href="./login1.html">
+                <input type="button" class="element1" value="Register" onclick="throwToLoginPage()">
+            </a>
+        </form>
+    </div>
+</body>
+</html>
